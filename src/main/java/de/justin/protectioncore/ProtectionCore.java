@@ -10,6 +10,7 @@ public final class ProtectionCore extends JavaPlugin {
 
     @Override
     public void onEnable() {
+        //Just dummy Code
         plugin = this;
     }
 

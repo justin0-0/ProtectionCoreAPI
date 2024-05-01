@@ -17,7 +17,8 @@ public enum Module {
     public ItemStack itemStack;
     Module(ItemStack itemStack1) {itemStack1 = itemStack;}
     public static Module getModuleByItem(ItemStack itemStack) {
-        return null;
+        //Just dummy Code
+        return MOB;
     }
 }
 

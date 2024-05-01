@@ -10,8 +10,7 @@ import java.util.UUID;
 
 
 public class Region {
-    public Region(int x, int z, int x2, int z2, Location protectionCore, ArrayList<UUID> members, ArrayList<Module> modules, ArrayList<String> customModules) {
-    }
+    public Region(int x, int z, int x2, int z2, Location protectionCore, ArrayList<UUID> members, ArrayList<Module> modules, ArrayList<String> customModules) {}
     private Rectangle2D rectangle2D;
     private Location location;
     private ArrayList<UUID> members = new ArrayList<>();

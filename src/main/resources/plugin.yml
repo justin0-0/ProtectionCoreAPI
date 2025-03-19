@@ -1,0 +1,4 @@
+name: API
+version: '1.1'
+main: de.justin.api.ProtectionCoreAPI
+api-version: '1.21'

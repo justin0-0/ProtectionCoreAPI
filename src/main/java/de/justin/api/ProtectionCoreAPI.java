@@ -13,7 +13,7 @@ import java.util.UUID;
 import java.util.logging.Level;
 
 public interface ProtectionCoreAPI {
-    @Nullable ProtectionCoreRegion getRegion(Location location);
+    @Nullable List<ProtectionCoreRegion> getRegion(Location location);
     ItemStack addCustomModule(String key, ItemStack itemStack);
     List<ProtectionCoreRegion> getWhitelistedRegions(UUID uuid);
     List<ProtectionCoreRegion> getOwnedRegions(UUID uuid);
